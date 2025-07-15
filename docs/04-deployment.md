@@ -1,18 +1,47 @@
-# 🚀 Deployment Guide
+# 🚀 Step 4: Deployment Guide
 
-## ✅ Manual Deployment
+This guide helps you deploy the app either manually (VPS/Cloud) or using Docker.
 
-1. Install Node.js and PostgreSQL on server
-2. Copy frontend and backend folders
-3. Run backend:
+---
+
+## ✅ Manual Deployment (VPS or Cloud VM)
+
+### Backend
+
+1. Copy the `backend/` folder to your server
+2. SSH into the server
+3. Set up `.env` file for production DB credentials
+4. Run:
+
 ```bash
-cd backend && npm install && npm run start
+cd backend
+npm install
+npm run start
 ```
-4. Build frontend:
+
+### Frontend
+
+1. Copy `frontend/` folder
+2. Build for production:
+
 ```bash
-cd frontend && npm run build && serve -s dist
+npm run build
 ```
 
-## ✅ Docker Deployment
+3. Serve using Nginx or use `serve` package:
 
-_Use docker-compose to run backend, frontend, and database together._
+```bash
+npm install -g serve
+serve -s dist
+```
+
+---
+
+## ✅ Docker Deployment (Recommended)
+
+Coming soon: a full `docker-compose.yml` that launches:
+
+- Node.js backend
+- React frontend
+- PostgreSQL database
+- PGAdmin (optional)
