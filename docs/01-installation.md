@@ -9,6 +9,6 @@
 ## ✅ Clone the Project
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/auditing-system.git
+git clone https://github.com/1jaswh/auditing-system.git
 cd auditing-system
 ```
