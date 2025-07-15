@@ -1,0 +1,55 @@
+
+# --------------------
+# Node.js & Express
+# --------------------
+node_modules/
+.env
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------
+# Vite (React)
+# --------------------
+dist/
+.vite/
+*.local
+
+# --------------------
+# Build / Cache
+# --------------------
+.cache/
+coverage/
+*.log
+
+# --------------------
+# Docker
+# --------------------
+*.pid
+*.sock
+pgdata/
+docker-compose.override.yml
+
+# --------------------
+# OS Files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# IDEs & Editors
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# --------------------
+# Misc
+# --------------------
+*.zip
+*.tar.gz
+*.tgz
+*.orig
