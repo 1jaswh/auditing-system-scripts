@@ -1,41 +1,10 @@
 # 🛡️ Auditing System
 
-A modern full-stack auditing system built with React, Node.js, PostgreSQL, Docker, and Socket.IO.
+A full-stack modern auditing system for tracking, storing, and visualizing user and system-level events across a platform or organization. Built using React, Node.js, PostgreSQL, and Docker, it supports real-time log updates, secure authentication, role-based access, and performance-ready architecture.
 
-## ✨ Features
+...
 
-- JWT-based login
-- Audit logging with metadata
-- Real-time updates with WebSockets
-- Role-based access
-- PostgreSQL JSONB logs
-- Dockerized for development
+## 👨‍💻 Author
 
-## 🧱 Tech Stack
-
-- Frontend: React, Tailwind CSS
-- Backend: Node.js, Express
-- Database: PostgreSQL
-- Realtime: Socket.IO
-- Auth: JWT
-- Containerization: Docker
-
-## 🚀 How to Run
-
-### 🐳 With Docker
-
-```bash
-docker-compose up --build
-```
-
-### 🧪 Backend (Local)
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-### ⚛️ Frontend
-
-Frontend code coming in next ZIP/upload.
+**Kiberu Joshua**  
+[GitHub](https://github.com/your-profile) | [Email](mailto:your-email@example.com)
